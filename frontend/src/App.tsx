@@ -1,9 +1,19 @@
+import { Container } from "react-bootstrap";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import { Outlet } from "react-router-dom";
+
 const App = () => {
   return (
-    <div style={{ display: "flex" }}>
-      <h1>Społem</h1>
-      <h2>Music</h2>
-    </div>
+    <>
+      <Header />
+      <main className="py-3">
+        <Container>
+          <Outlet />
+        </Container>
+      </main>
+      <Footer />
+    </>
   );
 };
 
