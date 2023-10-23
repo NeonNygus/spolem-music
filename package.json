@@ -1,0 +1,31 @@
+{
+  "name": "spolemmusic",
+  "version": "1.0.0",
+  "description": "Twój muzyczny marketplace w zasięgu ręki!",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "client": "npm run dev --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NeonNygus/spolem-music.git"
+  },
+  "author": "NeonNygus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NeonNygus/spolem-music/issues"
+  },
+  "homepage": "https://github.com/NeonNygus/spolem-music#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.1"
+  }
+}
