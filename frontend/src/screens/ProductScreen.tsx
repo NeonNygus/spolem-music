@@ -22,20 +22,23 @@ const ProductScreen = () => {
       </Link>
       <Row>
         <Col md="5">
-          <Image src={product?.image} alt={product?.name} fluid />
+          <Image src={product?.coverImage} alt={product?.title} fluid />
         </Col>
         <Col md="4">
           <ListGroup variant="flush">
             <ListGroup.Item>
-              <h3>{product?.name}</h3>
+              <h3>{product?.title}</h3>
+              <h4>{product?.artist && product.artist}</h4>
             </ListGroup.Item>
             <ListGroup.Item>
-              <Rating value={product?.rating} />
+              <Rating value={product?.productRating} />
             </ListGroup.Item>
             <ListGroup.Item>
               <Row>
                 <Col>Rodzaj:</Col>
-                <Col>{product?.genre}</Col>
+                <Col>
+                  {product?.genre && product?.genre.map((g) => <p>{g}</p>)}
+                </Col>
               </Row>
             </ListGroup.Item>
             <ListGroup.Item>
@@ -84,7 +87,7 @@ const ProductScreen = () => {
         </Col>
       </Row>
       <Row className="my-5 w-50">
-        <audio controls src={product?.music} />
+        <audio controls src={product?.previewMusic} />
       </Row>
     </>
   );

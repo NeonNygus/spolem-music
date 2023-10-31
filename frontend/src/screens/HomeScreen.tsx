@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { Row, Col } from "react-bootstrap";
-import Product from "../components/Product";
+import ProductCard from "../components/ProductCard";
 
 const HomeScreen = () => {
   const [products, setProducts] = useState([]);
@@ -20,7 +20,7 @@ const HomeScreen = () => {
       <Row>
         {products.map((item, index) => (
           <Col sm={12} md={6} lg={4} xl={3}>
-            <Product key={index} product={item} />
+            <ProductCard key={index} product={item} />
           </Col>
         ))}
       </Row>

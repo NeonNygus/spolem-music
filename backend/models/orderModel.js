@@ -15,7 +15,7 @@ const orderSchema = new mongoose.Schema({
   },
   orderItems: [
     {
-      itemId: {
+      productId: {
         type: mongoose.Schema.Types.ObjectId,
         required: true,
         ref: "Product",
@@ -71,6 +71,6 @@ const orderSchema = new mongoose.Schema({
   },
 });
 
-const orderModel = mongoose.Model("Order", orderSchema);
+const orderModel = mongoose.model("Order", orderSchema);
 
 export default orderModel;

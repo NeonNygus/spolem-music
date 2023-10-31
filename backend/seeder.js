@@ -3,13 +3,13 @@ import dotenv from "dotenv";
 import colors from "colors";
 
 //data
-import users from "./data/users";
-import products from "./data/products";
+import users from "./data/users.js";
+import products from "./data/products.js";
 
 //models
-import userModel from "./models/userModel";
-import productModel from "./models/productModel";
-import orderModel from "./models/orderModel";
+import userModel from "./models/userModel.js";
+import productModel from "./models/productModel.js";
+import orderModel from "./models/orderModel.js";
 
 import connectDB from "./config/db.js";
 
