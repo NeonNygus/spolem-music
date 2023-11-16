@@ -12,32 +12,32 @@ const products = [
     tracklist: [
       {
         trackName: "Whirlwind",
-        trackLength: 314,
+        trackLength: 194,
         trackArtist: "Arik Rodich",
       },
       {
         trackName: "Urban Clearway",
-        trackLength: 421,
+        trackLength: 261,
         trackArtist: "Geoff Downes",
       },
       {
         trackName: "Electronique",
-        trackLength: 211,
+        trackLength: 131,
         trackArtist: "Kaleth / Lawrence / Thomas",
       },
       {
         trackName: "Denburn",
-        trackLength: 215,
+        trackLength: 135,
         trackArtist: "Steve Everitt",
       },
       {
         trackName: "Diamond",
-        trackLength: 158,
+        trackLength: 118,
         trackArtist: "Painter / Jenkins",
       },
       {
         trackName: "Proton",
-        trackLength: 129,
+        trackLength: 89,
         trackArtist: "Geoff Leach",
       },
       {
@@ -47,23 +47,23 @@ const products = [
       },
       {
         trackName: "High Energy",
-        trackLength: 100,
+        trackLength: 60,
         trackArtist: "Downes / Jardim / Jardim / Blades",
       },
       {
-        trackName: "Meterorite",
+        trackName: "Meteorite",
         trackLength: 32,
-        trackArtist: "Kornelije Kovač",
+        trackArtist: "K. Kovach",
       },
       {
         trackName: "Switch On",
         trackLength: 30,
-        trackArtist: "Kornelije Kovač",
+        trackArtist: "K. Kovach",
       },
       {
         trackName: "Night Owl",
         trackLength: 30,
-        trackArtist: "Kornelije Kovač",
+        trackArtist: "K. Kovach",
       },
       {
         trackName: "Starburst",
@@ -92,41 +92,41 @@ const products = [
       },
       {
         trackName: "Abstract Atmospheric",
-        trackLength: 139,
+        trackLength: 99,
         trackArtist: "Anthony Phillips",
       },
       {
         trackName: "Air",
-        trackLength: 203,
+        trackLength: 123,
         trackArtist: "Geoff Leach",
       },
       {
         trackName: "Alpha Waves",
-        trackLength: 232,
+        trackLength: 152,
         trackArtist: "Painter / Jenkins",
       },
       {
         trackName: "Ice",
-        trackLength: 152,
+        trackLength: 112,
         trackArtist: "Anthony Phillips",
       },
       {
         trackName: "Deep Water",
-        trackLength: 209,
+        trackLength: 129,
         trackArtist: "Geoff Leach",
       },
       {
         trackName: "Fire",
-        trackLength: 304,
+        trackLength: 184,
         trackArtist: "Joji Hirota",
       },
       {
         trackName: "Ebb Tide",
-        trackLength: 134,
+        trackLength: 94,
         trackArtist: "Steve Everitt",
       },
       {
-        trackName: "Arctic Waste (A)",
+        trackName: "Arctic Waste",
         trackLength: 34,
         trackArtist: "Anthony Phillips",
       },
@@ -147,7 +147,7 @@ const products = [
       },
       {
         trackName: "Gliding",
-        trackLength: 107,
+        trackLength: 67,
         trackArtist: "Anthony Phillips",
       },
     ],
@@ -168,119 +168,148 @@ const products = [
     tracklist: [
       {
         trackName: "Satanic Mills",
-        trackLength: 221,
+        trackLength: 141,
+        trackArtist: "",
       },
       {
         trackName: "Machine",
-        trackLength: 310,
+        trackLength: 190,
+        trackArtist: "",
       },
       {
         trackName: "Mechanoid",
-        trackLength: 216,
+        trackLength: 136,
+        trackArtist: "",
       },
       {
         trackName: "Moleculum",
-        trackLength: 209,
+        trackLength: 129,
+        trackArtist: "",
       },
       {
-        trackName: "Fantastic Voyage (A)",
-        trackLength: 233,
+        trackName: "Fantastic Voyage",
+        trackLength: 153,
+        trackArtist: "",
       },
       {
-        trackName: "Fantastic Voyage (B)",
+        trackName: "Fantastic Voyage",
         trackLength: 57,
+        trackArtist: "",
       },
       {
         trackName: "Fortran",
-        trackLength: 135,
+        trackLength: 95,
+        trackArtist: "",
       },
       {
         trackName: "Read Out",
-        trackLength: 122,
+        trackLength: 82,
+        trackArtist: "",
       },
       {
         trackName: "Dramatic Break 1",
         trackLength: 49,
+        trackArtist: "",
       },
       {
         trackName: "Dramatic Break 3",
         trackLength: 28,
+        trackArtist: "",
       },
       {
         trackName: "Dramatic Opening",
         trackLength: 30,
+        trackArtist: "",
       },
       {
         trackName: "Start",
         trackLength: 30,
+        trackArtist: "",
       },
       {
         trackName: "Hi-Tech",
         trackLength: 30,
+        trackArtist: "",
       },
       {
         trackName: "Light Beam",
         trackLength: 28,
+        trackArtist: "",
       },
       {
         trackName: "Power",
         trackLength: 30,
+        trackArtist: "",
       },
       {
         trackName: "Electron",
-        trackLength: 247,
+        trackLength: 167,
+        trackArtist: "",
       },
       {
         trackName: "Mysterion",
-        trackLength: 258,
+        trackLength: 178,
+        trackArtist: "",
       },
       {
         trackName: "Sunken Cathedral's Hymn (A)",
-        trackLength: 217,
+        trackLength: 137,
+        trackArtist: "",
       },
       {
         trackName: "Sunken Cathedral's Hymn (B)",
         trackLength: 37,
+        trackArtist: "",
       },
       {
         trackName: "Dark Nights",
-        trackLength: 155,
+        trackLength: 115,
+        trackArtist: "",
       },
       {
         trackName: "Horrorscope",
-        trackLength: 114,
+        trackLength: 74,
+        trackArtist: "",
       },
       {
         trackName: "Twa Brigs",
-        trackLength: 151,
+        trackLength: 111,
+        trackArtist: "",
       },
       {
         trackName: "Other Worlds",
-        trackLength: 140,
+        trackLength: 100,
+        trackArtist: "",
       },
       {
         trackName: "Macabre",
         trackLength: 45,
+        trackArtist: "",
       },
       {
         trackName: "Funeral",
         trackLength: 45,
+        trackArtist: "",
       },
       {
         trackName: "Aftermath",
         trackLength: 45,
+        trackArtist: "",
       },
       {
         trackName: "Re-Emerge",
         trackLength: 36,
+        trackArtist: "",
       },
       {
         trackName: "Tension Beat",
         trackLength: 43,
+        trackArtist: "",
       },
       {
         trackName: "Metamorphosis",
-        trackLength: 100,
+        trackLength: 60,
+        trackArtist: "",
       },
     ],
     label: "Atmosphere Music Library",
@@ -300,82 +329,82 @@ const products = [
     tracklist: [
       {
         trackName: "Light Reflection",
-        trackLength: 254,
+        trackLength: 174,
         trackArtist: "Anthony Phillips",
       },
       {
         trackName: "Time-Lapse",
-        trackLength: 248,
+        trackLength: 168,
         trackArtist: "Anthony Phillips",
       },
       {
         trackName: "Mirage",
-        trackLength: 215,
+        trackLength: 135,
         trackArtist: "Anthony Phillips",
       },
       {
         trackName: "Icicles",
-        trackLength: 156,
+        trackLength: 116,
         trackArtist: "Anthony Phillips",
       },
       {
         trackName: "Caves",
-        trackLength: 247,
+        trackLength: 167,
         trackArtist: "Anthony Phillips",
       },
       {
         trackName: "Rapids",
-        trackLength: 316,
+        trackLength: 196,
         trackArtist: "Anthony Phillips",
       },
       {
         trackName: "New Dawn",
-        trackLength: 324,
+        trackLength: 204,
         trackArtist: "Anthony Phillips",
       },
       {
         trackName: "Majestic",
-        trackLength: 242,
+        trackLength: 162,
         trackArtist: "Anthony Phillips",
       },
       {
         trackName: "Dramatic Theme",
-        trackLength: 154,
+        trackLength: 114,
         trackArtist: "Geoff Leach",
       },
       {
         trackName: "Space Theme",
-        trackLength: 156,
+        trackLength: 116,
         trackArtist: "Geoff Leach",
       },
       {
         trackName: "Red",
-        trackLength: 436,
+        trackLength: 276,
         trackArtist: "Geoff Leach",
       },
       {
         trackName: "Unknown Soldier",
-        trackLength: 240,
+        trackLength: 160,
         trackArtist: "Geoff Leach",
       },
       {
         trackName: "Antarctica",
-        trackLength: 154,
+        trackLength: 114,
         trackArtist: "Geoff Leach",
       },
       {
         trackName: "Countdown",
-        trackLength: 230,
+        trackLength: 150,
         trackArtist: "Geoff Leach",
       },
       {
         trackName: "Glade",
-        trackLength: 205,
+        trackLength: 125,
         trackArtist: "Geoff Leach",
       },
       {
         trackName: "Critical Mass",
-        trackLength: 125,
+        trackLength: 85,
         trackArtist: "Geoff Leach",
       },
     ],
@@ -399,15 +428,15 @@ const products = [
       },
       {
         trackName: "Sentinel ('60)",
-        trackLength: 100,
+        trackLength: 60,
       },
       {
         trackName: "Sound (Full)",
-        trackLength: 100,
+        trackLength: 60,
       },
       {
         trackName: "Sound (Simpler Mix)",
-        trackLength: 100,
+        trackLength: 60,
       },
       {
         trackName: "Sound",
@@ -415,7 +444,7 @@ const products = [
       },
       {
         trackName: "Look Sharp! ('60)",
-        trackLength: 100,
+        trackLength: 60,
       },
       {
         trackName: "Look Sharp! ('30)",
@@ -463,11 +492,11 @@ const products = [
       },
       {
         trackName: "Car ('60 Without Intro)",
-        trackLength: 118,
+        trackLength: 78,
       },
       {
         trackName: "Car (No FX)",
-        trackLength: 100,
+        trackLength: 60,
       },
       {
         trackName: "Car",
@@ -475,11 +504,11 @@ const products = [
       },
       {
         trackName: "Metal (Full)",
-        trackLength: 100,
+        trackLength: 60,
       },
       {
         trackName: "Metal (Simpler Mix)",
-        trackLength: 100,
+        trackLength: 60,
       },
       {
         trackName: "Metal",
@@ -507,11 +536,11 @@ const products = [
       },
       {
         trackName: "Breakdance (Dance)",
-        trackLength: 314,
+        trackLength: 194,
       },
       {
         trackName: "Breakdance ('60)",
-        trackLength: 100,
+        trackLength: 60,
       },
       {
         trackName: "Breakdance ('30)",
@@ -519,31 +548,31 @@ const products = [
       },
       {
         trackName: "Sentinel",
-        trackLength: 243,
+        trackLength: 163,
       },
       {
         trackName: "Soul Train",
-        trackLength: 217,
+        trackLength: 137,
       },
       {
         trackName: "To The Limit",
-        trackLength: 217,
+        trackLength: 137,
       },
       {
         trackName: "Damaged",
-        trackLength: 341,
+        trackLength: 221,
       },
       {
-        trackName: "Damaged	('30)",
+        trackName: "Damaged ('30)",
         trackLength: 30,
       },
       {
         trackName: "Sleep / Dream",
-        trackLength: 240,
+        trackLength: 160,
       },
       {
         trackName: "Nightwalk",
-        trackLength: 232,
+        trackLength: 152,
       },
     ],
     label: "Atmosphere Music Library",
@@ -563,12 +592,12 @@ const products = [
     tracklist: [
       {
         trackName: "Ascension 1",
-        trackLength: 243,
+        trackLength: 163,
         trackArtist: "T. Sadler / G. Sadler",
       },
       {
         trackName: "Ascension 2",
-        trackLength: 243,
+        trackLength: 163,
         trackArtist: "T. Sadler / G. Sadler",
       },
       {
@@ -578,42 +607,42 @@ const products = [
       },
       {
         trackName: "Awakening 1",
-        trackLength: 200,
-        trackArtist: "T. Sadler / G. Sadler",
-      },
-      {
-        trackName: "Awakening 2",
-        trackLength: 200,
-        trackArtist: "T. Sadler / G. Sadler",
-      },
-      {
-        trackName: "Awakening 3",
-        trackLength: 200,
-        trackArtist: "T. Sadler / G. Sadler",
-      },
-      {
-        trackName: "Awakening 4",
-        trackLength: 200,
-        trackArtist: "T. Sadler / G. Sadler",
-      },
-      {
-        trackName: "Time Zone 1",
-        trackLength: 225,
-        trackArtist: "T. Sadler / G. Sadler",
-      },
-      {
-        trackName: "Time Zone 2",
-        trackLength: 225,
-        trackArtist: "T. Sadler / G. Sadler",
-      },
-      {
-        trackName: "Time Zone 3",
         trackLength: 120,
         trackArtist: "T. Sadler / G. Sadler",
       },
       {
+        trackName: "Awakening 2",
+        trackLength: 120,
+        trackArtist: "T. Sadler / G. Sadler",
+      },
+      {
+        trackName: "Awakening 3",
+        trackLength: 120,
+        trackArtist: "T. Sadler / G. Sadler",
+      },
+      {
+        trackName: "Awakening 4",
+        trackLength: 120,
+        trackArtist: "T. Sadler / G. Sadler",
+      },
+      {
+        trackName: "Time Zone 1",
+        trackLength: 145,
+        trackArtist: "T. Sadler / G. Sadler",
+      },
+      {
+        trackName: "Time Zone 2",
+        trackLength: 145,
+        trackArtist: "T. Sadler / G. Sadler",
+      },
+      {
+        trackName: "Time Zone 3",
+        trackLength: 80,
+        trackArtist: "T. Sadler / G. Sadler",
+      },
+      {
         trackName: "Time Zone 4",
-        trackLength: 225,
+        trackLength: 145,
         trackArtist: "T. Sadler / G. Sadler",
       },
       {
@@ -623,37 +652,37 @@ const products = [
       },
       {
         trackName: "Reflections I",
-        trackLength: 110,
+        trackLength: 70,
         trackArtist: "Jan Pulsford",
       },
       {
         trackName: "Reflections II",
-        trackLength: 110,
+        trackLength: 70,
         trackArtist: "Jan Pulsford",
       },
       {
         trackName: "Reflections III",
-        trackLength: 110,
+        trackLength: 70,
         trackArtist: "Jan Pulsford",
       },
       {
         trackName: "Etheral",
-        trackLength: 136,
+        trackLength: 96,
         trackArtist: "Jan Pulsford",
       },
       {
         trackName: "Light Is Knowledge",
-        trackLength: 315,
+        trackLength: 195,
         trackArtist: "Jan Pulsford",
       },
       {
         trackName: "Gives You (No Drums)",
-        trackLength: 220,
+        trackLength: 140,
         trackArtist: "Jan Pulsford",
       },
       {
         trackName: "Gives You (With Drums)",
-        trackLength: 220,
+        trackLength: 140,
         trackArtist: "Jan Pulsford",
       },
       {
@@ -678,7 +707,7 @@ const products = [
       },
       {
         trackName: "Gamesmanshift",
-        trackLength: 210,
+        trackLength: 130,
         trackArtist: "Steve Everitt",
       },
     ],

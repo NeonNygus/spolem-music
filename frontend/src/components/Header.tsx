@@ -3,14 +3,14 @@ import { FaShoppingCart, FaUser } from "react-icons/fa";
 import { LinkContainer } from "react-router-bootstrap";
 import SpolemLogo from "../assets/spolem_logo.png";
 
-const Header = () => {
+const Header: React.FC = () => {
   return (
     <header>
       <Navbar bg="dark" variant="dark" expand="lg" collapseOnSelect>
         <Container>
           <LinkContainer to="/">
             <Navbar.Brand>
-              <img src={SpolemLogo} alt="" width="200px" />
+              <img src={SpolemLogo} alt="" width="300px" />
             </Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

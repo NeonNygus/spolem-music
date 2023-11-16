@@ -1,13 +1,13 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { Row, Col } from "react-bootstrap";
-import ProductCard from "../components/ProductCard";
+import ProductCard from "../components/Home/ProductCard";
 
-const HomeScreen = () => {
-  const [products, setProducts] = useState([]);
+const HomeScreen: React.FC = () => {
+  const [products, setProducts] = useState<ProductType[]>([]);
 
   useEffect(() => {
-    const fetchProducts = async () => {
+    const fetchProducts: () => Promise<void> = async () => {
       const { data } = await axios.get("/api/products");
       setProducts(data);
     };
@@ -16,9 +16,8 @@ const HomeScreen = () => {
 
   return (
     <>
-      <h1>Hottest Products</h1>
       <Row>
-        {products.map((item, index) => (
+        {products.map((item: ProductType, index: number) => (
           <Col sm={12} md={6} lg={4} xl={3}>
             <ProductCard key={index} product={item} />
           </Col>
