@@ -1,7 +1,7 @@
 import { Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import AudioPlayer from "../ProductCard/AudioPlayer";
-import Rating from "../Product/Rating";
+import Rating from "../ProductScreen/Rating";
 import "../../styles/index.css";
 
 interface ProductCardProps {

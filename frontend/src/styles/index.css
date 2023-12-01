@@ -79,3 +79,19 @@ button:focus-visible {
 .textAnchor:hover {
   color: #00000094;
 }
+
+.skeleton {
+  border-width: 10;
+  background: linear-gradient(45deg, rgb(71, 71, 71), #ffffff, rgb(61, 61, 61));
+  background-size: 2000% 2000%;
+  animation: color 2s ease infinite;
+}
+
+@keyframes color {
+  0% {
+    background-position: 0 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
